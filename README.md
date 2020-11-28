@@ -7,7 +7,7 @@ Heavily based on [eslint-config-react-app](https://www.npmjs.com/package/eslint-
 ## Usage
 
 ```shell
-yarn add -D @rockchalkwushock/eslint-config
+yarn add -D @rockchalkwushock/eslint-config eslint prettier typescript
 ```
 
 ```json
