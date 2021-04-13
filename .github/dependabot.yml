@@ -1,0 +1,30 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    commit-message:
+      prefix: 'github-actions'
+    directory: '/'
+    labels:
+      - 'github-actions'
+    open-pull-requests-limit: 10
+    schedule:
+      day: 'sunday'
+      interval: 'weekly'
+      time: '22:00'
+      timezone: 'America/Bogota'
+    target-branch: 'development'
+
+  - package-ecosystem: 'npm'
+    commit-message:
+      prefix: 'yarn'
+    directory: '/'
+    labels:
+      - 'dependencies'
+      - 'yarn'
+    open-pull-requests-limit: 10
+    schedule:
+      day: 'sunday'
+      interval: 'weekly'
+      time: '22:00'
+      timezone: 'America/Bogota'
+    target-branch: 'development'
