@@ -6,7 +6,7 @@ module.exports = {
     jest: true,
     node: true,
   },
-  extends: ['prettier', 'prettier/@typescript-eslint', 'prettier/react'],
+  extends: ['prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
