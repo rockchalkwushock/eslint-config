@@ -1,6 +1,6 @@
 {
   "name": "@rockchalkwushock/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My eslint config for working with React & TypeScript.",
   "main": "index.js",
   "license": "MIT",
