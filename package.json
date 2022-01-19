@@ -5,16 +5,16 @@
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "email": "me@codybrunner.dev",
+    "email": "me@codybrunner.com",
     "name": "Cody Brunner",
-    "url": "https://codybrunner.dev"
+    "url": "https://codybrunner.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/rockchalkwushock/eslint-config.git"
   },
   "engines": {
-    "node": "14.x"
+    "node": ">= 14.x"
   },
   "files": [
     "index.js"
@@ -34,15 +34,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.5",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-testing-library": "^4.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^5.0.3"
   },
   "peerDependencies": {
     "eslint": "^7.14.0",
@@ -50,18 +50,18 @@
     "typescript": "^4.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
-    "@types/node": "^14.14.37",
-    "@types/react": "^17.0.3",
-    "commitizen": "^4.2.3",
+    "@commitlint/cli": "^16.0.3",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@types/node": "^17.0.10",
+    "@types/react": "^17.0.38",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.24.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
+    "eslint": "^8.7.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.2.1",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
-    "typescript": "^4.2.4"
+    "typescript": "^4.5.4"
   },
   "commitlint": {
     "extends": [
